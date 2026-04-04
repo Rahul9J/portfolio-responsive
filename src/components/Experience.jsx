@@ -131,7 +131,11 @@ export const Experience = (props) => {
           },
         }}
       >
-        <Avatar animation={characterAnimation} wireframe={section === 1} />
+        <Avatar
+          animation={characterAnimation}
+          wireframe={section === 1}
+          cursorFollow={section === 3}
+        />
       </motion.group>
       <ambientLight intensity={1} />
       <motion.group
