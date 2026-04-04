@@ -9,27 +9,14 @@ import { useEffect, useRef } from "react";
 export const projects = [
   {
     title: "BharatStock",
-    url: "https://bharatstock.app",
     image: "https://picsum.photos/id/1/200/300",
     description: "A comprehensive Retail Management System built with Flutter and Firebase.",
   },
   {
     title: "3D Portfolio",
-    url: "https://rahul-jaglan.vercel.app",
+    url: "https://portfolio-responsive-8tpfoctc6-rahuj9-4801s-projects.vercel.app/",
     image: "https://picsum.photos/id/2/200/300",
     description: "Personal portfolio built with React Three Fiber and Framer Motion.",
-  },
-  {
-    title: "EcoTrack",
-    url: "https://github.com/rahuljaglan/ecotrack",
-    image: "https://picsum.photos/id/3/200/300",
-    description: "Sustainability tracking app using React Native and Node.js.",
-  },
-  {
-    title: "AlgoViz",
-    url: "https://github.com/rahuljaglan/algoviz",
-    image: "https://picsum.photos/id/4/200/300",
-    description: "Data structures and algorithms visualizer built with C++ and SFML.",
   },
 ];
 
